@@ -1,4 +1,5 @@
 ## Weather App
+Deployed on [heroku](https://weatherrn.herokuapp.com/).
 
 Sample .env: 
 ```
