@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>{{title}}</title>
+    {{>favicon}}
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+    <div id="main-content">
+        {{>header}}
+        <br><br><br>
+        <form>
+            <p>Welcome to the weather app. Enter a location :)</p>
+            <input type="text" placeholder="Location">
+            <br><br>
+            <button>Search</button>
+        </form>
+        <br><br><br>
+
+        <p class="output">
+        </p>
+
+    </div>
+
+    {{>footer}}
+</body>
+<script src="/js/script.js"></script>
+
+</html>
